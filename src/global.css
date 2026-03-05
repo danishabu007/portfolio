@@ -1,0 +1,21 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+scroll-behavior:smooth;
+}
+
+section{
+padding:80px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+h2{
+margin-bottom:20px;
+}
+
+
+.dark{
+background:#121212;
+color:white;
+}

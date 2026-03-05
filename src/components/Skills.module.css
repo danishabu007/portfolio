@@ -1,0 +1,22 @@
+.skills{
+max-width:900px;
+margin:auto;
+padding:80px 20px;
+}
+
+.skill{
+margin-bottom:20px;
+}
+
+.bar{
+background:#ddd;
+height:10px;
+border-radius:5px;
+}
+
+.progress{
+background:#ff9900;
+height:10px;
+border-radius:5px;
+transition:width 1.5s ease;
+}
