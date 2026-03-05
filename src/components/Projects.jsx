@@ -5,33 +5,33 @@ function Projects(){
 const projects=[
 
 {
-title:"AWS MERN Deployment",
-desc:"Deployed MERN application on AWS EC2 with Nginx"
+title:"React Website Hosting on AWS",
+desc:"Deployed React website on AWS S3 with CloudFront CDN and SSL using Certificate Manager."
 },
 
 {
-title:"S3 Static Hosting",
-desc:"Hosted React portfolio on AWS S3 bucket"
+title:"MERN Application Deployment",
+desc:"Full MERN stack application deployed on AWS EC2 with Nginx reverse proxy."
 },
 
 {
-title:"Docker ECS Deployment",
-desc:"Containerized Node app and deployed on ECS"
+title:"Docker Deployment on ECS",
+desc:"Node.js application containerized using Docker and deployed on AWS ECS."
 }
 
 ]
 
 return(
 
-<section id="projects">
+<section id="projects" className={styles.projects}>
 
-<h2>Projects</h2>
+<h2>AWS Cloud Projects</h2>
 
 <div className={styles.grid}>
 
-{projects.map(project=>(
+{projects.map((project,index)=>(
 
-<div className={styles.card}>
+<div key={index} className={styles.card}>
 
 <h3>{project.title}</h3>
 

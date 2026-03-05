@@ -4,13 +4,16 @@ function Skills(){
 
 const skills=[
 
-{name:"AWS EC2",level:90},
-{name:"S3 Bucket",level:85},
-{name:"ECS",level:80},
-{name:"Certificate Manager",level:75},
-{name:"Docker",level:80},
-{name:"React",level:90},
-{name:"Node.js",level:85}
+"AWS EC2",
+"AWS S3",
+"AWS CloudFront",
+"AWS ECS",
+"AWS Certificate Manager",
+"AWS Route53",
+"Docker",
+"Nginx",
+"React JS",
+"Node JS"
 
 ]
 
@@ -20,26 +23,19 @@ return(
 
 <h2>Cloud & Development Skills</h2>
 
+<div className={styles.grid}>
+
 {skills.map((skill,index)=>(
 
-<div key={index} className={styles.skill}>
+<div key={index} className={styles.card}>
 
-<p>{skill.name}</p>
-
-<div className={styles.bar}>
-
-<div
-className={styles.progress}
-style={{width:skill.level+"%"}}
->
-
-</div>
-
-</div>
+{skill}
 
 </div>
 
 ))}
+
+</div>
 
 </section>
 

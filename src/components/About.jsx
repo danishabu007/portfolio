@@ -10,9 +10,11 @@ return(
 
 <p>
 
-I am a MERN Stack Developer currently working at
-Pinnacle Civil Services. I build scalable web
-applications using MongoDB, Express, React and Node.
+I am a MERN stack developer with experience in deploying
+applications on AWS cloud infrastructure.
+
+I have hands-on experience with AWS services such as
+EC2, S3, CloudFront, ECS, Certificate Manager and Route53.
 
 </p>
 

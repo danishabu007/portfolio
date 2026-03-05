@@ -1,19 +1,7 @@
 import styles from "./Hero.module.css"
-import { useTypewriter, Cursor } from "react-simple-typewriter"
 import { FaAws, FaDocker } from "react-icons/fa"
 
 function Hero(){
-
-const [text] = useTypewriter({
-words:[
-"MERN Developer",
-"AWS Cloud Engineer",
-"DevOps Enthusiast"
-],
-loop:true,
-typeSpeed:70,
-deleteSpeed:50
-})
 
 return(
 
@@ -21,22 +9,16 @@ return(
 
 <h1>Hi, I'm Abu Danish</h1>
 
-<h2>
-
-<span>{text}</span>
-
-<Cursor/>
-
-</h2>
+<h2>AWS Cloud & MERN Developer</h2>
 
 <p>
-I build scalable web apps and deploy them on AWS Cloud.
+I deploy scalable applications using AWS services like
+EC2, S3, CloudFront, ECS and Route53.
 </p>
 
 <div className={styles.icons}>
 
 <FaAws size={60} color="#ff9900"/>
-
 <FaDocker size={60}/>
 
 </div>
